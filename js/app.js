@@ -784,8 +784,9 @@ const countdownInterval = setInterval( () => {
         happyNewYear();
         
         // document.getElementById('backgroundMusic').src = "https://www.youtube.com/embed/lqqiy8H3SdE?si=F6GUEabjGpM4ZAJq&amp;controls=0&autoplay=1"
-        document.getElementById('myAudio').src = "https://github.com/sunflower519sf/sunflower519sf.github.io/blob/main/audio/audio2.MP3?raw=true"
-        
+        document.getElementById('myAudio').src = "https://github.com/sunflower519sf/2024new-year/blob/main/audio/audio2.MP3?raw=true"
+        // src中檔案網址後加上?raw=true 不然不能使用
+
     } else {
         
       
